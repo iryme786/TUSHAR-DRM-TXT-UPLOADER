@@ -39,7 +39,7 @@ import ffmpeg
 cyt = "https://graph.org/file/996d4fc24564509244988-a7d93d020c96973ba8.jpg"
 api_url = "http://master-api-v3.vercel.app/"
 api_token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNzkxOTMzNDE5NSIsInRnX3VzZXJuYW1lIjoi4p61IFtvZmZsaW5lXSIsImlhdCI6MTczODY5MjA3N30.SXzZ1MZcvMp5sGESj0hBKSghhxJ3k1GTWoBUbivUe1I"
-token_cp ='eyJjb3Vyc2VJZCI6IjQ1NjY4NyIsInR1dG9ySWQiOm51bGwsIm9yZ0lkIjo0ODA2MTksImNhdGVnb3J5SWQiOm51bGx9gft'
+token_cp ='eyJhbGciOiJIUzM4NCIsInR5cCI6IkpXVCJ9.eyJpZCI6MTQwMTY4OTIxLCJvcmdJZCI6NTY4ODI5LCJ0eXBlIjoxLCJtb2JpbGUiOiI5MTc2Nzk2ODU0OTciLCJuYW1lIjoiUnltZSIsImVtYWlsIjoic2tzYWJpcjk5OTg4ODc3Nzg4QGdtYWlsLmNvbSIsImlzSW50ZXJuYXRpb25hbCI6MCwiZGVmYXVsdExhbmd1YWdlIjoiRU4iLCJjb3VudHJ5Q29kZSI6IklOIiwiY291bnRyeUlTTyI6IjkxIiwidGltZXpvbmUiOiJHTVQrNTozMCIsImlzRGl5Ijp0cnVlLCJvcmdDb2RlIjoieWd6dWtuIiwiaXNEaXlTdWJhZG1pbiI6MCwiZmluZ2VycHJpbnRJZCI6IjYxYzhjYjgyYzNkMDQ5NWZiNjgyZDdjODMzZDk0YmI5IiwiaWF0IjoxNzUwMDg1MTc2LCJleHAiOjE3NTA2ODk5NzZ9.l_q6153xWtFYuIUde1u6_Vs5UCYlIaOptaYxmonKgrZYsmfa8DwacNs0ObmS_Xl8'
 
 
 async def show_random_emojis(message):
@@ -48,12 +48,12 @@ async def show_random_emojis(message):
     return emoji_message
     
 # Define the owner's user ID
-OWNER_ID = 5840594311 # Replace with the actual owner's user ID
+OWNER_ID = 6559064772 # Replace with the actual owner's user ID
 
 # List of sudo users (initially empty or pre-populated)
-SUDO_USERS = [5840594311]
+SUDO_USERS = [6559064772]
 
-AUTH_CHANNEL = -1002595188554
+AUTH_CHANNEL = -1002757108362
 
 # Function to check if a user is authorized
 def is_authorized(user_id: int) -> bool:
